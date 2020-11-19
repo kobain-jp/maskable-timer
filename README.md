@@ -1,1 +1,1 @@
-# timer-component
+# maskable-timer
