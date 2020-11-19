@@ -1,0 +1,1 @@
+new MaskableTimer("timer");

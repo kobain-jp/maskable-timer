@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer</title>
+</head>
+
+<body>
+    <div>
+        <div id="counter">00:00</div>
+        <input type="button" value="start" id="btnStart">
+        <input type="button" value="stop" id="btnStop">
+        <input type="button" value="reset" id="btnReset">
+    </div>
+
+    <div id="timer" data-use-btn="true" data-mask-start-time="5000" data-mask-end-time="10000"></div>
+
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>

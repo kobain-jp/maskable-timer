@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer</title>
+</head>
+
+<body>
+    <div id="timer" data-use-btn="true" data-mask-start-time="5000" data-mask-end-time="10000"></div>
+
+    <template id="tpl-timer">
+        <div id="counter">00:000</div>
+        <input type="button" value="start" id="btnStart" onclick="MaskableTimer.start()">
+        <input type="button" value="stop" id="btnStop" onclick="MaskableTimer.stop()">
+        <input type="button" value="reset" id="btnReset" onclick="MaskableTimer.reset()">
+    </template>
+
+    <template id="tpl-timer-display-only">
+        <div id="counter">00:000</div>
+    </template>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+    <script src="maskable-timer-module.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
