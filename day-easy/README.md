@@ -99,16 +99,17 @@ app.js
   let intervalId = 0;
 
   // set elemetns to variable
-  const displayElement = document.getElementById("counter");
-  const startBtnElement = document.getElementById("btnStart");
-  const stopBtnElement = document.getElementById("btnStop");
-  const resetBtnElement = document.getElementById("btnReset");
+  const displayElement = undefined; //TODO
+  const startBtnElement = undefined; //TODO
+  const stopBtnElement = undefined; //TODO
+  const resetBtnElement = undefined; //TODO
 
-  // bind Event to element
-  startBtnElement.addEventListener("click", start);
-  stopBtnElement.addEventListener("click", stop);
-  resetBtnElement.addEventListener("click", reset);
+  // bind click event and defined function
+  startBtnElement.addEventListener("",function(){}); // TODO
+  stopBtnElement.addEventListener("",function(){}); // TODO
+  resetBtnElement..addEventListener("",function(){}); // TODO
 
+  // 初期描画のために
   render();
 
   // controller
