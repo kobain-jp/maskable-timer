@@ -98,7 +98,7 @@ app.js
   let elapsedTime = 0;
   let intervalId = 0;
 
-  // set elemetns to variable
+  // set elements to variable
   const displayElement = undefined; //TODO
   const startBtnElement = undefined; //TODO
   const stopBtnElement = undefined; //TODO
@@ -107,7 +107,7 @@ app.js
   // bind click event and defined function
   startBtnElement.addEventListener("",function(){}); // TODO
   stopBtnElement.addEventListener("",function(){}); // TODO
-  resetBtnElement..addEventListener("",function(){}); // TODO
+  resetBtnElement.addEventListener("",function(){}); // TODO
 
   // 初期描画のために
   render();
